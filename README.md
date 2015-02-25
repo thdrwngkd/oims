@@ -1,6 +1,6 @@
-# [MPRC Pharmacy] (http://mprc.com)
+# [OIMS] (http://rheiidevs.com/oims)
 
-Online Inventory Management System for a Client
+Online Inventory Management System
 
 ## Documentation
 
