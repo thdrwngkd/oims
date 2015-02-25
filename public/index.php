@@ -29,10 +29,10 @@
       </nav>
     </header>
     <!-- End    Header Navbar -->
-
+    <div class="clear height eighty pixels"></div>
     <!-- Start  Section Masthead Segment -->
     <section class="ui inverted masthead segment clear">
-      <form class="ui form segment">
+      <form class="ui form segment top bottom margin">
         <div class="field">
           <div class="ui left icon action input">
             <i class="user icon"></i>
@@ -43,7 +43,11 @@
       </form>
     </section>
     <!-- End    Projects Section -->
-
+    <!-- Start  About Section -->
+    <section>
+      
+    </section>
+    <!-- End    About Section -->
     <!-- Javascript Imports -->
 
 
