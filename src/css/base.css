@@ -1,0 +1,66 @@
+
+      .clear.height {
+        height: 0;
+      }
+
+      .clear.height.ten.pixels {
+        height: 10px;
+      }
+
+      .clear.height.twenty.pixels {
+        height: 20px;
+      }
+
+      .clear.height.forty.pixels {
+        height: 40px;
+      }
+
+      .clear.height.sixty.pixels {
+        height: 60px;
+      }
+
+      .clear.height.eighty.pixels {
+        height: 80px;
+      }
+
+      .clear.height.one.hundred.pixels {
+        height: 100px;
+      }
+
+      .clear.height.two.hundred.pixels {
+        height: 200px;
+      }
+
+      .ui.clear {
+        border-radius: 0;
+        margin: 0;
+      }
+
+      .ui.top-bottom.margin {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      .ui.top-bottom.margin.ten.pixels {
+        margin-top:     10px;
+        margin-bottom:  10px;
+      }
+
+      .ui.top-bottom.margin.twenty.pixels {
+        margin-top:     20px;
+        margin-bottom:  20px;
+      }
+
+      .ui.top-bottom.margin.forty.pixels {
+        margin-top:     40px;
+        margin-bottom:  40px;
+      }
+
+      .ui.skill.label {
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+
+      .bordered {
+        border: 1px solid black;
+      }
