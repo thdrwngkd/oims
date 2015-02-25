@@ -2,4 +2,6 @@
 
 Online Inventory Management System for a Client
 
-Readme file still under construction
+## Documentation
+
+Currently on development
