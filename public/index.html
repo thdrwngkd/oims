@@ -17,26 +17,25 @@
     <script src="../dist/jquery.address.js"></script>
     <script src="../dist/semantic.js"></script>
 
-    <script src="../dist/base.js"></script>
   </head>
   <body>
     <!-- Start  Header Navbar -->
     <header>
       <nav class="ui fixed fluid main small menu">
-        <a class="item"><i class="home icon"></i></a>
-        <a class="item"><i class="help circle icon"></i> About</a>
-        <a class="item"><i class="code icon"></i> Sitemap</a>
+        <a class="item" href="#"><i class="home icon"></i>  Home</a>
+        <a class="item" href="#"><i class="call icon"></i>  Contact</a>
+        <a class="item">MPRC Pharmacy Store</a>
       </nav>
     </header>
     <!-- End    Header Navbar -->
     <div class="clear height sixty pixels"></div>
     <!-- Start  Section Masthead Segment -->
     <section class="ui center segment clear">
-      <div class="ui page grid top-bottom margin twenty pixels">
+      <div class="ui stackable page grid top-bottom margin twenty pixels">
         <div class="two column row">
           <div class="column">
             <h2 class="ui header">
-              * Store Name Here *
+              MPRC Pharmacy Store
               <div class="sub header" style="margin-top: 20px; text-align: justify">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
               </div>
@@ -47,6 +46,17 @@
               Login
             </h3>
             <form class="ui fluid form">
+              <div class="field">
+                <div class="ui selection dropdown">
+                  <input type="hidden" name="gender">
+                  <div class="default text">Branch</div>
+                  <i class="dropdown icon"></i>
+                  <div class="menu">
+                    <div class="item" data-value="male">Pag-Asa</div>
+                    <div class="item" data-value="female">Daang Tubo</div>
+                  </div>            
+                </div>
+              </div>
               <div class="field">
                 <div class="ui left icon input">
                   <input type="text" placeholder="username">
@@ -66,6 +76,9 @@
                   <label>Keep me logged in</label>
                 </div>
               </div>
+              <div class="field">
+                <p>Forgot your login details?<br>Request for a change through this <a href="forgot-password.html">link</a>.</p>
+              </div>
             </form>
           </div>
         </div>
@@ -76,18 +89,23 @@
     <div class="clear height twenty pixels"></div>
     <!-- Start  About Section -->
     <section class="ui footer segment clear">
-      <div class="ui page grid top-bottom margin twenty pixels">
+      <div class="ui page grid">
         <div class="row">
-          <div class="column">
-            <div class="clear height forty pixels"></div>
+          <div class="seven wide column">
+            <p>© 2015 MPRC Pharmacy Store. All Rights Reserved.</p>
+          </div>
+          <div class="six wide column">
+            <p>Website powered by <a href="">RA System Solutions</a>.</p>
+          </div>
+          <div class="right aligned three wide column">
+            <p>Bugs? Report <a href="">here</a>!</p>
           </div>
         </div>
       </div>
     </section>
     <!-- End    About Section -->
     <!-- Javascript Imports -->
-
-
+      <script src="../dist/base.js"></script>
     <!-- Javascript Imports -->
   </body>
 </html>
